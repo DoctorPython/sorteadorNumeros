@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 body {
@@ -59,7 +59,7 @@ body::before {
 }
 
 .container__texto-azul {
-    color: #1875E8;
+    color: #95e818;
     display: block;
 
 }
@@ -122,12 +122,13 @@ h1 {
 }
 
 .texto__paragrafo {
-    color: #FFF;
+    color: #f9d423;
     font-family: 'Inter';
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    font-weight: bold;
 }
 
 .container__imagem-pessoa {

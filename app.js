@@ -21,6 +21,7 @@ function sortear(){
     resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados:  ${sorteados}</label>`;
     alterarStatusBotao();
     
+    
 }
 
 function obterNumeroAleatorio(min, max){
@@ -46,8 +47,4 @@ function reiniciar(){
     document.getElementById('ate').value =  "";
     document.getElementById('resultado').innerHTML = ` <label class="texto__paragrafo">Números sorteados:  nenhum até agora</label>`;
     alterarStatusBotao();
-
-
-
-
 }
